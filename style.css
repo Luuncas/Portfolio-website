@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+    background: url("cool-background.png");
+    background-size: cover;
+    background-position: center top;   
+}
+
+.personalia {
+    background-color: #fff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-right: 20%;
+}
+
+.name {
+    margin-left: auto;
+}
+
+.container {
+    height: 10em;
+    position: relative;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    object-fit: scale-down;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.block {
+    padding: 10px 0 10px 0;
+}
+
+.work {
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+.scroller {
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    white-space: nowrap;
+    border-style: solid;
+}
+
+.inner {
+    display: inline-block;
+    white-space: nowrap;
+}
