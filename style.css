@@ -103,7 +103,7 @@ li {
     font-size: 40px;
 }
 
-.contact a:link, a:visited {
+.contact a:link, .contact a:visited {
     color: #000;
 }
 
