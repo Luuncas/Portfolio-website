@@ -20,17 +20,12 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    padding-right: 20%;
+    padding: 0 20% 0 20%;
     margin-bottom: 50px;
 }
 
 .name {
     margin-left: auto;
-}
-
-.container {
-    height: 10em;
-    position: relative;
 }
 
 h2 {
