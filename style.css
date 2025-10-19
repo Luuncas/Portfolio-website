@@ -75,6 +75,7 @@ h2 {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    margin-bottom: 10px;
     gap: 1rem;
 }
 
