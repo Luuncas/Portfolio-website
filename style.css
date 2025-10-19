@@ -32,6 +32,13 @@ h2 {
     padding-bottom: 10px;
 }
 
+.photo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
 .cv-list {
     position: relative;
     right: 0;
@@ -54,7 +61,7 @@ h2 {
     position: absolute;
 }
 
-.cv {
+.cv-item {
     padding: 12px;
     background-color: #fff;
     margin-bottom: 15px;
@@ -64,6 +71,58 @@ h2 {
 }
 
 .cv-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.company-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.company-details h3 {
+    margin: 0;
+    color: #1a202c;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.company-details h4 {
+    margin: 0.25rem 0;
+    color: #4a5568;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.cv-right {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.cv-date {
+    color: #4a5568;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.cv-type {
+    background-color: #b4e5ff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.page {
     color: #fff;
 }
 
