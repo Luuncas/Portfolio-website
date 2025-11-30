@@ -132,6 +132,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    padding-top: 10px;
 }
 
 li {
