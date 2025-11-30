@@ -20,13 +20,13 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    padding: 0 20% 0 20%;
     margin-bottom: 50px;
     padding: 0px;
 }
 
 .name {
-    margin-left: auto;
+    position: absolute;
+    right: 20%;
 }
 
 h2 {
@@ -51,7 +51,8 @@ h2 {
   height: 150px;
   overflow: hidden;
   border-radius: 50%;
-  position: relative;
+  position: absolute;
+  left: 20%;
 }
 
 .img-wrapper img {
@@ -84,6 +85,7 @@ h2 {
     display: flex;
     align-items: center;
     gap: 1rem;
+    overflow: auto;
 }
 
 .company-details h3 {
