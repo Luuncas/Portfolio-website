@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     font-family: system-ui;
     background: url("cool-background.png");
     background-size: cover;
@@ -12,8 +12,7 @@ body {
     display: flex; 
     flex-direction: column; 
     min-height: 100vh;
-    /* background-color: #7867b2; */
-}
+} */
 
 .personalia {
     background-color: #fff;
@@ -66,7 +65,7 @@ h2 {
 .cv-item {
     padding: 12px;
     background-color: #fff;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     border-radius: 10px;
     border: solid #000 2px;
     box-shadow: 0px 1px 1px 1px #000;
@@ -163,4 +162,28 @@ li {
 
 .contact a:hover {
     color: #4b4b4b;
+}
+
+.nav-link {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-right: 20%;
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+  display: inline;
+}
+
+.nav-link a{
+    text-decoration: none;
+}
+
+.nav-link a:hover {
+    color: #01d0fe;
+}
+
+#nav-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
